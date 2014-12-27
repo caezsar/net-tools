@@ -35,15 +35,13 @@ cat << EOF
 		<link href="css/style_v2.css" rel="stylesheet">
 
 		
-<!-- Direct mobile devices to website mobile version 
+<!-- Direct mobile devices to website mobile version -->
 <script type="text/javascript">
-<!--
 if (screen.width <= 699) {
 document.location = "m/";
 }
-//-->
 </script>
--->
+
 <!-- SOCIAL BUTTON FLOAT  -->
 
 <script type="text/javascript">

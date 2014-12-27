@@ -182,9 +182,6 @@ cat << EOF
 			</div>
 		        <div class="box-content">
                 <pre class="prettyprint" id="block">
-<strong> <p>`/usr/bin/whois "$FOLDER3" 2> /dev/null` </p></strong>
-</pre>
-</div>
 <div align="center"
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Tools_Top_720x90_Ad -->
@@ -195,6 +192,9 @@ cat << EOF
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>	
+</div>				
+<strong> <p>`/usr/bin/whois "$FOLDER3" 2> /dev/null` </p></strong>
+</pre>
 </div>
 </div></div></div>
 EOF
