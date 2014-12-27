@@ -32,34 +32,6 @@ cat << EOF
 
 		<link href="../css/icons.css" rel="stylesheet">
 		<link href="../css/style_v2.css" rel="stylesheet">
-
-		
-<!-- Direct mobile devices to website mobile version 
-<script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "m/";
-}
-//-->
-</script>
--->
-<!-- SOCIAL BUTTON FLOAT  -->
-
-
-
-
-
-
-<!-- GOOGLE ANALITICS -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-33207530-4', 'auto');
-  ga('send', 'pageview');
-</script>
 		
 	</head>
 
@@ -113,7 +85,7 @@ document.location = "m/";
 <li class="hidden-xs"><a target="_blank" class="metro" href="https://twitter.com/tecmint" title='Twitter'><i class="icon-twitter"></i></a></li>
 <li class="hidden-xs"><a target="_blank" class="metro" href="https://plus.google.com/+Tecmint/posts" title='Google Plus'><i class="icon-google-plus"></i></a></li>
 <li class="hidden-xs"><a target="_blank" class="metro" href="../" title='Home'><i class="icon-home"></i></a></li>
-<li class="hidden-xs"><a target="_blank" class="metro" href="https://github.com/caezsar" title='Github'><i class="icon-github"></i></a></li>
+<li class="hidden-xs"><a target="_blank" class="metro" href="https://github.com/caezsar/net-tools" title='Github'><i class="icon-github"></i></a></li>
 
 
 						</ul>					

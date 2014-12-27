@@ -69,7 +69,7 @@ echo "<a target="_blank" class="metro" href="https://plus.google.com/+Tecmint/po
 echo "<a target="_blank" class="metro" href="http://tecmint.com" title='Go to Tecmint.com'><span class="icon-home"></span></a>"
 echo "<a target="_blank" class="metro" href="/" title='Desktop Version'><span class="icon-firefox"></span></a>"
 echo "<a class="metro" href="/m/scan/" title='Scan ++'><span class="icon-search"></span></a>"
-echo "<a target="_blank" class="metro" href="https://github.com/caezsar/network-tools" title='Github Project'><span class="icon-github"></span></a>"
+echo "<a target="_blank" class="metro" href="https://github.com/caezsar/net-tools" title='Github Project'><span class="icon-github"></span></a>"
 
 
 echo "</span>"
