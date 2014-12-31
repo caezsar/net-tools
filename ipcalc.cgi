@@ -6,6 +6,7 @@ POST=$(</dev/stdin)
 
 	# read in our parameters in form method get
   FOLDER4=`echo "$POST" | sed -n 's/^.*folder4=\([^&]*\).*$/\1/p' | sed "s/%20/ /g"| sed "s/%2F/\//g"`
+  FOLDER5=`echo "$POST" | sed -n 's/^.*folder5=\([^&]*\).*$/\1/p' | sed "s/%20/ /g"| sed "s/%2F/\//g"`
 	
          if [[ -z "$FOLDER4" ]]
     then
@@ -37,9 +38,14 @@ cat << EOF
 			</div>
 		        <div class="box-content">
                 <pre class="prettyprint" id="block"><strong><p>
-`ipcalc "$FOLDER4"`
+`ipcalc "$FOLDER4" "$FOLDER5"`
+
+</strong><div>
+`echo "sIP Calculation:"`
+
 `sipcalc "$FOLDER4"`
-</strong></p>
+</div>
+</p>
 </pre>
 </div>	
 </div></div></div>
@@ -54,6 +60,7 @@ cat << EOF
 		<div>
 <form method=POST>
 <input id="searchbox" type=text placeholder="192.168.10.20/24" name=folder4>
+<span id="af"> To </span><input id="searchbox_port" type=text placeholder="24" name=folder5>
 <input id="submit" value="calculate" type=submit>
 </form>
 		</div>	

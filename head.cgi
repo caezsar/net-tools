@@ -8,7 +8,7 @@ remote_host=`./remote_host.pl 2> /dev/null| cut -d" " -f6`
 city=`geoiplookup -f /usr/share/GeoIP/GeoLiteCity.dat $REMOTE_ADDR | grep City | cut -d: -f2| sed 's/N\/A,//g'| sed 's/0,//g'`
 country=`geoiplookup $REMOTE_ADDR | grep Country | cut -d: -f 2| sed 's/N\/A,//g'| sed 's/0,//g'`
 asn=`geoiplookup $REMOTE_ADDR | grep ASN | cut -d: -f 2| sed 's/N\/A,//g'| sed 's/0,//g'`
-
+#hostr=`/usr/bin/host $REMOTE_ADDR`
 
 
 

@@ -245,7 +245,40 @@ cat << EOF
 </div></div></div>
 EOF
 	  
-              ;;		
+              ;;	
+
+			ptr)
+cat << EOF			
+ <div class="row">
+	<div class="col-xs-12 col-sm-11">
+		<div class="box">
+			<div class="box-header">
+				<div class="box-name">
+					<i class="fa fa-search"></i>
+					<span> Pointer DNS records for <strong> $FOLDER </strong></span>
+				</div>
+				<div class="box-icons">
+					<a class="collapse-link">
+						<i class="fa fa-chevron-up"></i>
+					</a>
+					<a class="expand-link">
+						<i class="fa fa-expand"></i>
+					</a>
+					<a class="close-link">
+						<i class="fa fa-times"></i>
+					</a>
+				</div>
+				<div class="no-move"></div>
+			</div>
+		        <div class="box-content">
+                <pre class="prettyprint" id="block">
+<strong> <p>`/usr/bin/host -t ptr "$FOLDER" 2> /dev/null` </p></strong>
+</pre>
+</div>
+</div></div></div>
+EOF
+	  
+              ;;				  
 			all)
 cat << EOF			
  <div class="row">
@@ -340,6 +373,7 @@ cat << EOF
         <option value="soa">SOA</option>
         <option value="cname">CNAME</option>
         <option value="ttl">TTL</option>
+		<option value="ptr">PTR</option>
         <option value="all">ALL</option>
         <option value="trace">TRACE</option>
 			</select>      

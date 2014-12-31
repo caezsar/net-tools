@@ -226,7 +226,11 @@ cat << EOF
 			</div>
 		        <div class="box-content">
 			 <pre id="block">
-<strong> <h3><p align="center">`/usr/bin/dig +short "$FOLDER4" 2> /dev/null`</p></h3></strong>
+<strong> <h3><p align="center">
+`/usr/bin/host "$FOLDER4" | grep "has address" |awk '{print $4'}`
+`/usr/bin/host "$FOLDER4" | grep "IPv6" |awk '{print $5'}`
+`/usr/bin/host "$FOLDER4" | grep "pointer" | awk '{print $5}'`
+</p></h3></strong>
 </pre>
 <div align="center"
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -56,7 +56,7 @@ asn=`geoiplookup $REMOTE_ADDR | grep ASN | cut -d: -f 2| sed 's/N\/A,//g'| sed '
 ##LOGO##
 echo "<div class="header1">"
 
-echo "<a href="/m/" title='Go Home!'><img src=/m/images/logo_tools.png width="150" height="31"></a>"
+echo "<a href="/m/" title='Go Home!'><img src=../../img/aa.png width="30" height="32"></a>"
 echo "<a href="http://$REMOTE_ADDR" title='Go to your IP Address!' target="_blank"> IP: $REMOTE_ADDR</a>"
 
 ## Social icons ###

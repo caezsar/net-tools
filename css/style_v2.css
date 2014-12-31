@@ -24,14 +24,14 @@ font-family: "Righteous",cursive;
 display: block;
 font-size: 20px;
 line-height: 50px;
-  background: url(../img/logo-white.png) right 25px no-repeat;
+  background: url(../img/aa.png) right 25px no-repeat;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 #logo a:hover {
-  background-position: right 10px;
+  background-position: right 0px;
   text-decoration: none;
 
 }
